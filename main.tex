@@ -1,0 +1,252 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shashwat Raj} \\ \vspace{1pt}
+    500 E University Drive, Tempe, Arizona 85281 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 602-471-6925 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rajayshashwat@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/raj-shashwat}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/darthvader58}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{August 2023 -- June 2027}
+      {Bachelor of Science and Engineering in Computer Systems Engineering, \textbf{GPA : }3.97}{Tempe, Arizona}
+  \resumeSubHeadingListEnd
+  \small
+        {\textbf{Activities : } Grand Challenges Scholars Program, EPICS, Venture Devils, Startup Village, SunDevils Satellite Laboratory, Combat Ready Robotics, CodeDevils, ASU Cricket Club, Hindu YUVA}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Delhi Public School RK Puram}{April 2009 -- June 2022}
+      {High School Diploma in non-medical + Computer Science stream, \textbf{CGPA : }9.9}{New Delhi, Delhi}
+  \resumeSubHeadingListEnd
+  \small
+        \vspace{2pt}
+        {\textbf{Activities : }President Student Council '21-22, RoboKnights (Robotics Club), Aeross (Aerospace Society), Maths Society, Entrepreneurship Club, French language and literature club}
+\vspace{-10pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Kavvy}{February 2024 -- Present}
+      {Founder and Chief Executive Officer (CEO)}{United States}
+      \resumeItemListStart
+        \resumeItem{a Seed stage startup venture, that aims to bridge the gap between traditional publishing houses and local authors, providing them with services that build their writer's profile and refines proposals based on a revised database of trends of several publishing houses.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Collective Design (CoDe) lab, Arizona State University}{May 2024 -- Present}
+      {Undergraduate Student Researcher}{Tempe, Arizona, United States}
+      \resumeItemListStart
+        \resumeItem{Conducting research on developing an RL-based model for autonomous satellite orientation for Earth Science missions under the mentorship of Dr. Paul Grogan and his team at CoDe lab.}
+        \resumeItem{Part of Fulton Undergraduate Research Initiative (FURI) for Fall 2024 Semester, awarded with a stipend of \$1500.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Invincibles Robotics}{August 2022 -- Present}
+      {Electrical Subsystem Engineer}{New Delhi, Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Computer hardware team, training budding roboticists and conquering in 30+ events all over the country, accruing over INR 2,000,000 solely through prize money.}
+        \resumeItem{Built battlebots - 8kg (Nakul), 15kg (Karan and Arjun), 30kg (Sahadev, Yuddhishtir, Bheem) and 60kg (Bhishma).}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {IIRIS Consultancy Pvt. Ltd.}{June 2022 -- June 2022}
+      {Software Intern}{Virtual, Global}
+      \resumeItemListStart
+        \resumeItem{Scheduled meetings and reported to the manager directly by following up on marketing leads generated online for 20+ services and supporting the marketing team in daily administrative tasks.}
+        \resumeItem{Maintained customer/client databases for more than  100 clients and committed 500+ queries in the database system.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Society for Promotion of Youth and Masses}{September 2022 -- October 2022}
+      {Volunteer and Student Intern}{New Delhi, Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Volunteered at the SPYM Office that serves as the controlling hub for 100+ SPYM centers and shelters.}
+        \resumeItem{Designed social media posts and Reviewed brain teasers for literacy of drugs-addicted and poverty-striken juveniles}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects and Publications}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Formath} $|$ {Node.js, React.js, Cockroachdb, Amazon Web Services} $|$ \emph{devpost.com/software/formath}}{October 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a web application facilitating step-by-step error analysis for problem-solving, through API calls to models such as Imgur, Wolfram Alpha and ChatGPT.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Terrader} $|$ {Next.js, Chakra, Python, Figma}}{April 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a web-based crypto-trading simulation game emphasizing  awareness for environmental impact by crypto-mining. Integrated virtual currencies, a carbon footprint meter, and collaborative features for competitive gameplay.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Anagnor} $|$ {GISTEMP 4.0, React, Unsuper, Python} $|$ \emph{github.com/Anagnor-Landslide-Detection/Anagnor}}{October 2021}
+          \resumeItemListStart
+            \resumeItem{Engineered Anagnor, a global landslide prediction system using advanced algorithms considering land features, precipitation, heating, and tectonic activities.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills and Other Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, C++, HTML/CSS, JavaScript, SQL, Lua, LaTex, React.js, Node.js, React Native} \\
+     \textbf{Developer Tools}{: VS Code, Gazebo, Google Cloud Platform, Google Colab, ANSYS, Fusion 360, KiCad, Figma, XFLR5} \\
+     \textbf{Technologies/Frameworks}{: Scikit Learn, Pandas, GitHub, Next.js, Tailwind, Flutter, ROS, IoT, TensorFlow, Django}\\
+     \textit{Other Courses and Certifications can be viewed on Linkedin or on my portfolio website shashwatraj.com}\\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Award and Accomplishments}
+    \resumeItemListStart
+        \resumeItem{1st Prize winner at 19th Annual Programming Contest (Competitive Programming) organized by WICS.ASU}
+        \vspace{-3pt}
+        \resumeItem{Honorary Mention at NSS Space Settlement Contest 2022 in Grade 11 Large Team Category.}
+        \vspace{-3pt}
+        \resumeItem{Gold Medal Awardee for Excellence in Academics for 7 consecutive years.}
+        \vspace{-3pt}
+        \resumeItem{Red Tie Awardee for Excellence in Robotics}
+        \vspace{-3pt}
+        \resumeItem{International Winner in 60kg Robowars (Combat Robotics) at Technoxian 2023, partnered with AICRA.}
+        \vspace{-3pt}
+        \resumeItem{International Qualifiers in Real World Design Challenge FY21 in association with ERAU and FAA.}
+    \resumeItemListEnd
+
+\end{document}
